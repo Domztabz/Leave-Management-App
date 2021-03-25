@@ -8,8 +8,9 @@ App is written in Swift
 Uses the following 3rd party Libraries :
 
 
-https://github.com/Alamofire/Alamofire for making HTTP Requests<br>
-https://github.com/MessageKit/MessageKit for making th Chat UI <br>
+<a href="https://github.com/Alamofire/Alamofire">Alamofire</a> for making HTTP Requests<br>
+<a href="https://github.com/MessageKit/MessageKit">MessageKit</a> for making th Chat UI <br>
+
 CocoaPods for managing dependencies<br>
 Firebase Cloud Messaging for sending Notifications<br>
 Firebase Realtime Database for storing Chat messages<br>
