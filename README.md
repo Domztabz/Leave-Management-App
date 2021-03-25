@@ -9,3 +9,7 @@ Uses the following 3rd party Libraries :
 
 
 https://github.com/Alamofire/Alamofire for making HTTP Requests
+https://github.com/MessageKit/MessageKit for making th Chat UI 
+CocoaPods for managing dependencies
+Firebase Cloud Messaging for sending Notifications
+Firebase Realtime Database for storing Chat messages
