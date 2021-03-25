@@ -7,21 +7,184 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE077DA32369104C0072EFD5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE077DA22369104C0072EFD5 /* SignInViewController.swift */; };
+		CE07886821F9939A00559C5D /* HRDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07886721F9939A00559C5D /* HRDrawerViewController.swift */; };
+		CE07886A21F99B0700559C5D /* SelectEmployeeForcedLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07886921F99B0700559C5D /* SelectEmployeeForcedLeaveViewController.swift */; };
+		CE07886C21F99B3700559C5D /* CreateForcedLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07886B21F99B3700559C5D /* CreateForcedLeaveViewController.swift */; };
+		CE07886E21F99B5E00559C5D /* ActiveForcedLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07886D21F99B5E00559C5D /* ActiveForcedLeaveViewController.swift */; };
+		CE07887021F99B7400559C5D /* ActiveForcedLeaveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07886F21F99B7400559C5D /* ActiveForcedLeaveDetailViewController.swift */; };
+		CE07887221F99B8F00559C5D /* ResetEmployeeDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887121F99B8F00559C5D /* ResetEmployeeDaysViewController.swift */; };
+		CE07887421F99BB100559C5D /* SelectEmployeeResetDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887321F99BB100559C5D /* SelectEmployeeResetDaysViewController.swift */; };
+		CE07887621F9E46E00559C5D /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887521F9E46E00559C5D /* SuccessViewController.swift */; };
+		CE07887821F9EF4700559C5D /* ActiveForcedLeaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887721F9EF4700559C5D /* ActiveForcedLeaveTableViewCell.swift */; };
+		CE07887A21FA184F00559C5D /* AllForcedLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887921FA184F00559C5D /* AllForcedLeavesViewController.swift */; };
+		CE07887C21FA1AB800559C5D /* AllForcedLeavesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887B21FA1AB800559C5D /* AllForcedLeavesTableViewCell.swift */; };
+		CE07887E21FA8B7800559C5D /* PendingRelieverRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887D21FA8B7800559C5D /* PendingRelieverRequestsViewController.swift */; };
+		CE07888021FA8EEA00559C5D /* PendingRelieverRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07887F21FA8EEA00559C5D /* PendingRelieverRequestTableViewCell.swift */; };
+		CE07888221FA921700559C5D /* RespondToReliverReqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07888121FA921700559C5D /* RespondToReliverReqViewController.swift */; };
+		CE21A1B9235E9FE0008181FC /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1B8235E9FE0008181FC /* UsersViewController.swift */; };
+		CE21A1BB235EA07E008181FC /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1BA235EA07E008181FC /* DatabaseRepresentation.swift */; };
+		CE21A1BD235EA2E5008181FC /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1BC235EA2E5008181FC /* Messages.swift */; };
+		CE21A1BF235EA3A4008181FC /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1BE235EA3A4008181FC /* AppSettings.swift */; };
+		CE21A1C1235EC2CE008181FC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1C0235EC2CE008181FC /* ChatViewController.swift */; };
+		CE21A1C4235EC419008181FC /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1C3235EC419008181FC /* UIColor+Additions.swift */; };
+		CE21A1C6235EC46A008181FC /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1C5235EC46A008181FC /* UICollectionView+Additions.swift */; };
+		CE21A1C8235EC4EE008181FC /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1C7235EC4EE008181FC /* UIView+Additions.swift */; };
+		CE21A1CA235EC531008181FC /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1C9235EC531008181FC /* UIImage+Additions.swift */; };
+		CE21A1CC235EC83C008181FC /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21A1CB235EC83C008181FC /* Channel.swift */; };
+		CE343ACF21BDCF4B003E0722 /* TextInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343ACE21BDCF4B003E0722 /* TextInputTextField.swift */; };
+		CE343AD121BE509C003E0722 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343AD021BE509C003E0722 /* AppUtility.swift */; };
+		CE343AD321BE5677003E0722 /* AddToCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343AD221BE5677003E0722 /* AddToCalendarViewController.swift */; };
+		CE343AD521BE775B003E0722 /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343AD421BE775B003E0722 /* PopOverViewController.swift */; };
+		CE343AD721BF9025003E0722 /* PendingLeaveRequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343AD621BF9025003E0722 /* PendingLeaveRequestsTableViewCell.swift */; };
+		CE343AD921BF9382003E0722 /* PendingLeaveRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343AD821BF9382003E0722 /* PendingLeaveRequestsViewController.swift */; };
+		CE6C105A21BB91C700637BB0 /* ApplyForLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C105921BB91C700637BB0 /* ApplyForLeaveViewController.swift */; };
+		CE6C105C21BB920F00637BB0 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C105B21BB920F00637BB0 /* MyAccountViewController.swift */; };
+		CE6C105E21BB922F00637BB0 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C105D21BB922F00637BB0 /* PreferencesViewController.swift */; };
+		CE71F80D21FC5D510014A998 /* PastLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F80C21FC5D510014A998 /* PastLeavesViewController.swift */; };
+		CE71F80F21FC62800014A998 /* PastLeavesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F80E21FC62800014A998 /* PastLeavesTableViewCell.swift */; };
+		CE71F81F21FF21820014A998 /* DarkPurpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F81E21FF21820014A998 /* DarkPurpleButton.swift */; };
+		CE78D8322375D1D600E94574 /* CahttingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78D8312375D1D600E94574 /* CahttingViewController.swift */; };
+		CE809BF2234BB7D800EF5A38 /* FirebaseEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE809BF1234BB7D800EF5A38 /* FirebaseEnums.swift */; };
+		CE809BF6234BB91E00EF5A38 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE809BF5234BB91E00EF5A38 /* UIImageExtension.swift */; };
+		CE913D9821C005E400650BCF /* PendingLeaveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE913D9721C005E400650BCF /* PendingLeaveRequest.swift */; };
+		CE9549A6220884D700DE5428 /* MyVisistorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9549A5220884D700DE5428 /* MyVisistorsViewController.swift */; };
+		CE9549A822088C0F00DE5428 /* VisitorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9549A722088C0E00DE5428 /* VisitorsDetailViewController.swift */; };
+		CE9549AA220891EB00DE5428 /* VisitorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9549A9220891EB00DE5428 /* VisitorTableViewCell.swift */; };
+		CE962E1121C0DDB4006883E5 /* RespondToLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1021C0DDB4006883E5 /* RespondToLeaveViewController.swift */; };
+		CE962E1321C12464006883E5 /* CommentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1221C12464006883E5 /* CommentTextField.swift */; };
+		CE962E1521C1860C006883E5 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1421C1860C006883E5 /* CommentsViewController.swift */; };
+		CE962E1721C2094F006883E5 /* GoBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1621C2094F006883E5 /* GoBackButton.swift */; };
+		CE962E1921C20BC5006883E5 /* CompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1821C20BC5006883E5 /* CompletionViewController.swift */; };
+		CE962E1B21C22EB6006883E5 /* AcceptedLeaveRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1A21C22EB6006883E5 /* AcceptedLeaveRequestTableViewCell.swift */; };
+		CE962E1D21C22ECF006883E5 /* RejectedLeaveRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1C21C22ECF006883E5 /* RejectedLeaveRequestTableViewCell.swift */; };
+		CE962E1F21C26462006883E5 /* PastLeaveRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE962E1E21C26462006883E5 /* PastLeaveRequests.swift */; };
+		CEA744C321B92A7C00C02FE7 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA744C221B92A7C00C02FE7 /* EmailViewController.swift */; };
+		CEA744C521B9584D00C02FE7 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA744C421B9584D00C02FE7 /* ForgotPasswordViewController.swift */; };
 		CEA8B02321B7CEAE003F4CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8B02221B7CEAE003F4CFF /* AppDelegate.swift */; };
-		CEA8B02521B7CEAE003F4CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8B02421B7CEAE003F4CFF /* ViewController.swift */; };
+		CEA8B02521B7CEAE003F4CFF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8B02421B7CEAE003F4CFF /* LogInViewController.swift */; };
 		CEA8B02821B7CEAE003F4CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA8B02621B7CEAE003F4CFF /* Main.storyboard */; };
-		CEA8B02A21B7CEB3003F4CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8B02921B7CEB3003F4CFF /* Assets.xcassets */; };
+		CEA8B02A21B7CEB3003F4CFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA8B02921B7CEB3003F4CFF /* Images.xcassets */; };
 		CEA8B02D21B7CEB3003F4CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA8B02B21B7CEB3003F4CFF /* LaunchScreen.storyboard */; };
+		CEA8B03521B7FB1A003F4CFF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8B03421B7FB1A003F4CFF /* RoundedButton.swift */; };
+		CEAAF33921B8618100240C5A /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAF33821B8618100240C5A /* RoundedTextField.swift */; };
+		CEAAF33B21B8930300240C5A /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAF33A21B8930300240C5A /* DrawerViewController.swift */; };
+		CEAAF33D21B893F400240C5A /* PastLeaveRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAF33C21B893F400240C5A /* PastLeaveRequestsViewController.swift */; };
+		CEAFC59D21E4B8D1003A85DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC59C21E4B8D1003A85DC /* Constants.swift */; };
+		CEAFC59F21E4C4A1003A85DC /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC59E21E4C4A1003A85DC /* APIRouter.swift */; };
+		CEAFC5A121E4CA3A003A85DC /* UserDataAllClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5A021E4CA3A003A85DC /* UserDataAllClasses.swift */; };
+		CEAFC5A321E4E841003A85DC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5A221E4E841003A85DC /* APIClient.swift */; };
+		CEAFC5A521E67664003A85DC /* LeaveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5A421E67664003A85DC /* LeaveRequest.swift */; };
+		CEAFC5A721E6875F003A85DC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAFC5A621E6875F003A85DC /* CoreData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		CEAFC5AD21E68F57003A85DC /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5AB21E68F57003A85DC /* DataModel.xcdatamodeld */; };
+		CEAFC5D221E76D12003A85DC /* LeaveHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5D121E76D12003A85DC /* LeaveHistoryTableViewCell.swift */; };
+		CEAFC5D421E76F12003A85DC /* LeaveHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5D321E76F12003A85DC /* LeaveHistoryViewController.swift */; };
+		CEAFC5D621EB9BCC003A85DC /* SelectEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFC5D521EB9BCC003A85DC /* SelectEmployeeViewController.swift */; };
+		CEBA40332264B78C00A10174 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA40322264B78B00A10174 /* ResetPasswordViewController.swift */; };
+		CEBA403522659A3400A10174 /* CustomSelectedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA403422659A3400A10174 /* CustomSelectedTableViewCell.swift */; };
+		CEBA403722659C3100A10174 /* NumberOfRelieversViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA403622659C3100A10174 /* NumberOfRelieversViewController.swift */; };
+		CEBA40392265B78300A10174 /* MultipleRelieversViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA40382265B78300A10174 /* MultipleRelieversViewController.swift */; };
+		CEBA403B2265FD2500A10174 /* EmployeeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA403A2265FD2500A10174 /* EmployeeNumberViewController.swift */; };
+		CEBA403D2267332600A10174 /* RejectedLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA403C2267332600A10174 /* RejectedLeavesViewController.swift */; };
+		CEBA403F226734EC00A10174 /* RejectedLeavesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA403E226734EC00A10174 /* RejectedLeavesCellTableViewCell.swift */; };
+		CEC12F212361805600035192 /* UsersChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC12F202361805500035192 /* UsersChatTableViewCell.swift */; };
+		CEFA7445220AFFBB004780AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFA7444220AFFBB004780AE /* GoogleService-Info.plist */; };
+		CEFA744D220BF884004780AE /* RedRoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA744C220BF884004780AE /* RedRoundedTextField.swift */; };
+		CEFA7452220C16FA004780AE /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7451220C16FA004780AE /* Connectivity.swift */; };
+		E24BBDA56534C002F60D8D7D /* Pods_Leave_Management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D974D0832D0572042B59B8 /* Pods_Leave_Management.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D974D0832D0572042B59B8 /* Pods_Leave_Management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leave_Management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F3BF1B0580BAC5B444E4D4 /* Pods-Leave Management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leave Management.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leave Management/Pods-Leave Management.release.xcconfig"; sourceTree = "<group>"; };
+		99A925209417C402248F0E56 /* Pods-Leave Management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leave Management.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leave Management/Pods-Leave Management.debug.xcconfig"; sourceTree = "<group>"; };
+		CE077DA22369104C0072EFD5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE07886721F9939A00559C5D /* HRDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRDrawerViewController.swift; sourceTree = "<group>"; };
+		CE07886921F99B0700559C5D /* SelectEmployeeForcedLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEmployeeForcedLeaveViewController.swift; sourceTree = "<group>"; };
+		CE07886B21F99B3700559C5D /* CreateForcedLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateForcedLeaveViewController.swift; sourceTree = "<group>"; };
+		CE07886D21F99B5E00559C5D /* ActiveForcedLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveForcedLeaveViewController.swift; sourceTree = "<group>"; };
+		CE07886F21F99B7400559C5D /* ActiveForcedLeaveDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveForcedLeaveDetailViewController.swift; sourceTree = "<group>"; };
+		CE07887121F99B8F00559C5D /* ResetEmployeeDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetEmployeeDaysViewController.swift; sourceTree = "<group>"; };
+		CE07887321F99BB100559C5D /* SelectEmployeeResetDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEmployeeResetDaysViewController.swift; sourceTree = "<group>"; };
+		CE07887521F9E46E00559C5D /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		CE07887721F9EF4700559C5D /* ActiveForcedLeaveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveForcedLeaveTableViewCell.swift; sourceTree = "<group>"; };
+		CE07887921FA184F00559C5D /* AllForcedLeavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllForcedLeavesViewController.swift; sourceTree = "<group>"; };
+		CE07887B21FA1AB800559C5D /* AllForcedLeavesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllForcedLeavesTableViewCell.swift; sourceTree = "<group>"; };
+		CE07887D21FA8B7800559C5D /* PendingRelieverRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRelieverRequestsViewController.swift; sourceTree = "<group>"; };
+		CE07887F21FA8EEA00559C5D /* PendingRelieverRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRelieverRequestTableViewCell.swift; sourceTree = "<group>"; };
+		CE07888121FA921700559C5D /* RespondToReliverReqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondToReliverReqViewController.swift; sourceTree = "<group>"; };
+		CE21A1B8235E9FE0008181FC /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		CE21A1BA235EA07E008181FC /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		CE21A1BC235EA2E5008181FC /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		CE21A1BE235EA3A4008181FC /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		CE21A1C0235EC2CE008181FC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CE21A1C3235EC419008181FC /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		CE21A1C5235EC46A008181FC /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
+		CE21A1C7235EC4EE008181FC /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		CE21A1C9235EC531008181FC /* UIImage+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
+		CE21A1CB235EC83C008181FC /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		CE343ACE21BDCF4B003E0722 /* TextInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputTextField.swift; sourceTree = "<group>"; };
+		CE343AD021BE509C003E0722 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		CE343AD221BE5677003E0722 /* AddToCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCalendarViewController.swift; sourceTree = "<group>"; };
+		CE343AD421BE775B003E0722 /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		CE343AD621BF9025003E0722 /* PendingLeaveRequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingLeaveRequestsTableViewCell.swift; sourceTree = "<group>"; };
+		CE343AD821BF9382003E0722 /* PendingLeaveRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingLeaveRequestsViewController.swift; sourceTree = "<group>"; };
+		CE6C105921BB91C700637BB0 /* ApplyForLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyForLeaveViewController.swift; sourceTree = "<group>"; };
+		CE6C105B21BB920F00637BB0 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		CE6C105D21BB922F00637BB0 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		CE71F80C21FC5D510014A998 /* PastLeavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLeavesViewController.swift; sourceTree = "<group>"; };
+		CE71F80E21FC62800014A998 /* PastLeavesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLeavesTableViewCell.swift; sourceTree = "<group>"; };
+		CE71F81E21FF21820014A998 /* DarkPurpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkPurpleButton.swift; sourceTree = "<group>"; };
+		CE78D8312375D1D600E94574 /* CahttingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CahttingViewController.swift; sourceTree = "<group>"; };
+		CE809BF1234BB7D800EF5A38 /* FirebaseEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseEnums.swift; sourceTree = "<group>"; };
+		CE809BF5234BB91E00EF5A38 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		CE913D9721C005E400650BCF /* PendingLeaveRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingLeaveRequest.swift; sourceTree = "<group>"; };
+		CE9549A5220884D700DE5428 /* MyVisistorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVisistorsViewController.swift; sourceTree = "<group>"; };
+		CE9549A722088C0E00DE5428 /* VisitorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorsDetailViewController.swift; sourceTree = "<group>"; };
+		CE9549A9220891EB00DE5428 /* VisitorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorTableViewCell.swift; sourceTree = "<group>"; };
+		CE962E1021C0DDB4006883E5 /* RespondToLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondToLeaveViewController.swift; sourceTree = "<group>"; };
+		CE962E1221C12464006883E5 /* CommentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTextField.swift; sourceTree = "<group>"; };
+		CE962E1421C1860C006883E5 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		CE962E1621C2094F006883E5 /* GoBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBackButton.swift; sourceTree = "<group>"; };
+		CE962E1821C20BC5006883E5 /* CompletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionViewController.swift; sourceTree = "<group>"; };
+		CE962E1A21C22EB6006883E5 /* AcceptedLeaveRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedLeaveRequestTableViewCell.swift; sourceTree = "<group>"; };
+		CE962E1C21C22ECF006883E5 /* RejectedLeaveRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectedLeaveRequestTableViewCell.swift; sourceTree = "<group>"; };
+		CE962E1E21C26462006883E5 /* PastLeaveRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLeaveRequests.swift; sourceTree = "<group>"; };
+		CEA744C221B92A7C00C02FE7 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		CEA744C421B9584D00C02FE7 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		CEA8B01F21B7CEAE003F4CFF /* Leave Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leave Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA8B02221B7CEAE003F4CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA8B02421B7CEAE003F4CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA8B02421B7CEAE003F4CFF /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		CEA8B02721B7CEAE003F4CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEA8B02921B7CEB3003F4CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA8B02921B7CEB3003F4CFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEA8B02C21B7CEB3003F4CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA8B02E21B7CEB3003F4CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA8B03421B7FB1A003F4CFF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		CEAAF33821B8618100240C5A /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		CEAAF33A21B8930300240C5A /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		CEAAF33C21B893F400240C5A /* PastLeaveRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLeaveRequestsViewController.swift; sourceTree = "<group>"; };
+		CEAFC59C21E4B8D1003A85DC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CEAFC59E21E4C4A1003A85DC /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		CEAFC5A021E4CA3A003A85DC /* UserDataAllClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataAllClasses.swift; sourceTree = "<group>"; };
+		CEAFC5A221E4E841003A85DC /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CEAFC5A421E67664003A85DC /* LeaveRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRequest.swift; sourceTree = "<group>"; };
+		CEAFC5A621E6875F003A85DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEAFC5AC21E68F57003A85DC /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		CEAFC5D121E76D12003A85DC /* LeaveHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		CEAFC5D321E76F12003A85DC /* LeaveHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveHistoryViewController.swift; sourceTree = "<group>"; };
+		CEAFC5D521EB9BCC003A85DC /* SelectEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEmployeeViewController.swift; sourceTree = "<group>"; };
+		CEBA40322264B78B00A10174 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		CEBA403422659A3400A10174 /* CustomSelectedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSelectedTableViewCell.swift; sourceTree = "<group>"; };
+		CEBA403622659C3100A10174 /* NumberOfRelieversViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRelieversViewController.swift; sourceTree = "<group>"; };
+		CEBA40382265B78300A10174 /* MultipleRelieversViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleRelieversViewController.swift; sourceTree = "<group>"; };
+		CEBA403A2265FD2500A10174 /* EmployeeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeNumberViewController.swift; sourceTree = "<group>"; };
+		CEBA403C2267332600A10174 /* RejectedLeavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectedLeavesViewController.swift; sourceTree = "<group>"; };
+		CEBA403E226734EC00A10174 /* RejectedLeavesCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectedLeavesCellTableViewCell.swift; sourceTree = "<group>"; };
+		CEC12F202361805500035192 /* UsersChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersChatTableViewCell.swift; sourceTree = "<group>"; };
+		CEFA7443220AFC4D004780AE /* Leave Management.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Leave Management.entitlements"; sourceTree = "<group>"; };
+		CEFA7444220AFFBB004780AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEFA744C220BF884004780AE /* RedRoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedRoundedTextField.swift; sourceTree = "<group>"; };
+		CEFA7451220C16FA004780AE /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +192,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFC5A721E6875F003A85DC /* CoreData.framework in Frameworks */,
+				E24BBDA56534C002F60D8D7D /* Pods_Leave_Management.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284A3ADBC14AE71A726A03AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99A925209417C402248F0E56 /* Pods-Leave Management.debug.xcconfig */,
+				64F3BF1B0580BAC5B444E4D4 /* Pods-Leave Management.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EF91F8F8BB4C54F3FFC6BA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFC5A621E6875F003A85DC /* CoreData.framework */,
+				05D974D0832D0572042B59B8 /* Pods_Leave_Management.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE21A1B7235E9F06008181FC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CE21A1B8235E9FE0008181FC /* UsersViewController.swift */,
+				CE21A1BC235EA2E5008181FC /* Messages.swift */,
+				CE21A1BE235EA3A4008181FC /* AppSettings.swift */,
+				CE21A1C0235EC2CE008181FC /* ChatViewController.swift */,
+				CE21A1CB235EC83C008181FC /* Channel.swift */,
+				CE077DA22369104C0072EFD5 /* SignInViewController.swift */,
+				CE78D8312375D1D600E94574 /* CahttingViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		CE809BEC234BB4D200EF5A38 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE21A1BA235EA07E008181FC /* DatabaseRepresentation.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE809BF7234BB9B000EF5A38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE809BF5234BB91E00EF5A38 /* UIImageExtension.swift */,
+				CE21A1C3235EC419008181FC /* UIColor+Additions.swift */,
+				CE21A1C5235EC46A008181FC /* UICollectionView+Additions.swift */,
+				CE21A1C7235EC4EE008181FC /* UIView+Additions.swift */,
+				CE21A1C9235EC531008181FC /* UIImage+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE913D9921C0A1F900650BCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFC5A421E67664003A85DC /* LeaveRequest.swift */,
+				CE913D9721C005E400650BCF /* PendingLeaveRequest.swift */,
+				CE962E1E21C26462006883E5 /* PastLeaveRequests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEA744C121B92A4600C02FE7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8B02421B7CEAE003F4CFF /* LogInViewController.swift */,
+				CEAAF33A21B8930300240C5A /* DrawerViewController.swift */,
+				CEAAF33C21B893F400240C5A /* PastLeaveRequestsViewController.swift */,
+				CEA744C221B92A7C00C02FE7 /* EmailViewController.swift */,
+				CEA744C421B9584D00C02FE7 /* ForgotPasswordViewController.swift */,
+				CE6C105921BB91C700637BB0 /* ApplyForLeaveViewController.swift */,
+				CE6C105B21BB920F00637BB0 /* MyAccountViewController.swift */,
+				CE6C105D21BB922F00637BB0 /* PreferencesViewController.swift */,
+				CE343AD221BE5677003E0722 /* AddToCalendarViewController.swift */,
+				CE343AD421BE775B003E0722 /* PopOverViewController.swift */,
+				CE343AD821BF9382003E0722 /* PendingLeaveRequestsViewController.swift */,
+				CE962E1021C0DDB4006883E5 /* RespondToLeaveViewController.swift */,
+				CE962E1421C1860C006883E5 /* CommentsViewController.swift */,
+				CE962E1821C20BC5006883E5 /* CompletionViewController.swift */,
+				CEAFC5D321E76F12003A85DC /* LeaveHistoryViewController.swift */,
+				CEAFC5D521EB9BCC003A85DC /* SelectEmployeeViewController.swift */,
+				CE07886721F9939A00559C5D /* HRDrawerViewController.swift */,
+				CE07886921F99B0700559C5D /* SelectEmployeeForcedLeaveViewController.swift */,
+				CE07886B21F99B3700559C5D /* CreateForcedLeaveViewController.swift */,
+				CE07886D21F99B5E00559C5D /* ActiveForcedLeaveViewController.swift */,
+				CE07886F21F99B7400559C5D /* ActiveForcedLeaveDetailViewController.swift */,
+				CE07887121F99B8F00559C5D /* ResetEmployeeDaysViewController.swift */,
+				CE07887321F99BB100559C5D /* SelectEmployeeResetDaysViewController.swift */,
+				CE07887521F9E46E00559C5D /* SuccessViewController.swift */,
+				CE07887921FA184F00559C5D /* AllForcedLeavesViewController.swift */,
+				CE07887D21FA8B7800559C5D /* PendingRelieverRequestsViewController.swift */,
+				CE07888121FA921700559C5D /* RespondToReliverReqViewController.swift */,
+				CE71F80C21FC5D510014A998 /* PastLeavesViewController.swift */,
+				CE9549A5220884D700DE5428 /* MyVisistorsViewController.swift */,
+				CE9549A722088C0E00DE5428 /* VisitorsDetailViewController.swift */,
+				CEBA40322264B78B00A10174 /* ResetPasswordViewController.swift */,
+				CEBA403622659C3100A10174 /* NumberOfRelieversViewController.swift */,
+				CEBA40382265B78300A10174 /* MultipleRelieversViewController.swift */,
+				CEBA403A2265FD2500A10174 /* EmployeeNumberViewController.swift */,
+				CEBA403C2267332600A10174 /* RejectedLeavesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		CEA8B01621B7CEAE003F4CFF = {
 			isa = PBXGroup;
 			children = (
 				CEA8B02121B7CEAE003F4CFF /* Leave Management */,
 				CEA8B02021B7CEAE003F4CFF /* Products */,
+				284A3ADBC14AE71A726A03AE /* Pods */,
+				5EF91F8F8BB4C54F3FFC6BA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +325,55 @@
 		CEA8B02121B7CEAE003F4CFF /* Leave Management */ = {
 			isa = PBXGroup;
 			children = (
+				CE21A1B7235E9F06008181FC /* Chat */,
+				CEFA7444220AFFBB004780AE /* GoogleService-Info.plist */,
+				CEFA7443220AFC4D004780AE /* Leave Management.entitlements */,
 				CEA8B02221B7CEAE003F4CFF /* AppDelegate.swift */,
-				CEA8B02421B7CEAE003F4CFF /* ViewController.swift */,
+				CEA744C121B92A4600C02FE7 /* View Controllers */,
+				CEA8B03721B7FB46003F4CFF /* CustomViews */,
 				CEA8B02621B7CEAE003F4CFF /* Main.storyboard */,
-				CEA8B02921B7CEB3003F4CFF /* Assets.xcassets */,
+				CEA8B02921B7CEB3003F4CFF /* Images.xcassets */,
 				CEA8B02B21B7CEB3003F4CFF /* LaunchScreen.storyboard */,
 				CEA8B02E21B7CEB3003F4CFF /* Info.plist */,
+				CE343AD021BE509C003E0722 /* AppUtility.swift */,
+				CE913D9921C0A1F900650BCF /* Model */,
+				CEAFC59C21E4B8D1003A85DC /* Constants.swift */,
+				CEAFC59E21E4C4A1003A85DC /* APIRouter.swift */,
+				CEAFC5A021E4CA3A003A85DC /* UserDataAllClasses.swift */,
+				CEAFC5A221E4E841003A85DC /* APIClient.swift */,
+				CEAFC5AB21E68F57003A85DC /* DataModel.xcdatamodeld */,
+				CEFA7451220C16FA004780AE /* Connectivity.swift */,
+				CE809BEC234BB4D200EF5A38 /* Protocols */,
+				CE809BF1234BB7D800EF5A38 /* FirebaseEnums.swift */,
+				CE809BF7234BB9B000EF5A38 /* Extensions */,
 			);
 			path = "Leave Management";
+			sourceTree = "<group>";
+		};
+		CEA8B03721B7FB46003F4CFF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				CE343AD621BF9025003E0722 /* PendingLeaveRequestsTableViewCell.swift */,
+				CEA8B03421B7FB1A003F4CFF /* RoundedButton.swift */,
+				CEAAF33821B8618100240C5A /* RoundedTextField.swift */,
+				CE343ACE21BDCF4B003E0722 /* TextInputTextField.swift */,
+				CE962E1221C12464006883E5 /* CommentTextField.swift */,
+				CE962E1621C2094F006883E5 /* GoBackButton.swift */,
+				CE962E1A21C22EB6006883E5 /* AcceptedLeaveRequestTableViewCell.swift */,
+				CE962E1C21C22ECF006883E5 /* RejectedLeaveRequestTableViewCell.swift */,
+				CEAFC5D121E76D12003A85DC /* LeaveHistoryTableViewCell.swift */,
+				CE07887721F9EF4700559C5D /* ActiveForcedLeaveTableViewCell.swift */,
+				CE07887B21FA1AB800559C5D /* AllForcedLeavesTableViewCell.swift */,
+				CE07887F21FA8EEA00559C5D /* PendingRelieverRequestTableViewCell.swift */,
+				CE71F80E21FC62800014A998 /* PastLeavesTableViewCell.swift */,
+				CE71F81E21FF21820014A998 /* DarkPurpleButton.swift */,
+				CE9549A9220891EB00DE5428 /* VisitorTableViewCell.swift */,
+				CEFA744C220BF884004780AE /* RedRoundedTextField.swift */,
+				CEBA403422659A3400A10174 /* CustomSelectedTableViewCell.swift */,
+				CEBA403E226734EC00A10174 /* RejectedLeavesCellTableViewCell.swift */,
+				CEC12F202361805500035192 /* UsersChatTableViewCell.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +383,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA8B03121B7CEB3003F4CFF /* Build configuration list for PBXNativeTarget "Leave Management" */;
 			buildPhases = (
+				C6B1749C3615ECE6D815EAB8 /* [CP] Check Pods Manifest.lock */,
 				CEA8B01B21B7CEAE003F4CFF /* Sources */,
 				CEA8B01C21B7CEAE003F4CFF /* Frameworks */,
 				CEA8B01D21B7CEAE003F4CFF /* Resources */,
+				8F4EDE2F6B4A5466E28D9836 /* [CP] Embed Pods Frameworks */,
+				8C33EF9C7FEDBB1C749B5A32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +411,11 @@
 				TargetAttributes = {
 					CEA8B01E21B7CEAE003F4CFF = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,21 +442,198 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFA7445220AFFBB004780AE /* GoogleService-Info.plist in Resources */,
 				CEA8B02D21B7CEB3003F4CFF /* LaunchScreen.storyboard in Resources */,
-				CEA8B02A21B7CEB3003F4CFF /* Assets.xcassets in Resources */,
+				CEA8B02A21B7CEB3003F4CFF /* Images.xcassets in Resources */,
 				CEA8B02821B7CEAE003F4CFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C33EF9C7FEDBB1C749B5A32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Leave Management/Pods-Leave Management-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leave Management/Pods-Leave Management-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4EDE2F6B4A5466E28D9836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Leave Management/Pods-Leave Management-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALLoadingView/ALLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leave Management/Pods-Leave Management-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B1749C3615ECE6D815EAB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leave Management-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEA8B01B21B7CEAE003F4CFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA8B02521B7CEAE003F4CFF /* ViewController.swift in Sources */,
+				CE343AD521BE775B003E0722 /* PopOverViewController.swift in Sources */,
+				CE21A1BD235EA2E5008181FC /* Messages.swift in Sources */,
+				CE07886821F9939A00559C5D /* HRDrawerViewController.swift in Sources */,
+				CEFA7452220C16FA004780AE /* Connectivity.swift in Sources */,
+				CE07887821F9EF4700559C5D /* ActiveForcedLeaveTableViewCell.swift in Sources */,
+				CE71F81F21FF21820014A998 /* DarkPurpleButton.swift in Sources */,
+				CEA744C521B9584D00C02FE7 /* ForgotPasswordViewController.swift in Sources */,
+				CE9549AA220891EB00DE5428 /* VisitorTableViewCell.swift in Sources */,
+				CEAFC5D421E76F12003A85DC /* LeaveHistoryViewController.swift in Sources */,
+				CEAFC5D221E76D12003A85DC /* LeaveHistoryTableViewCell.swift in Sources */,
+				CE07887C21FA1AB800559C5D /* AllForcedLeavesTableViewCell.swift in Sources */,
+				CE962E1921C20BC5006883E5 /* CompletionViewController.swift in Sources */,
+				CE962E1521C1860C006883E5 /* CommentsViewController.swift in Sources */,
+				CEA8B02521B7CEAE003F4CFF /* LogInViewController.swift in Sources */,
+				CE21A1CA235EC531008181FC /* UIImage+Additions.swift in Sources */,
+				CE07886E21F99B5E00559C5D /* ActiveForcedLeaveViewController.swift in Sources */,
+				CE9549A6220884D700DE5428 /* MyVisistorsViewController.swift in Sources */,
+				CE343ACF21BDCF4B003E0722 /* TextInputTextField.swift in Sources */,
+				CE21A1C4235EC419008181FC /* UIColor+Additions.swift in Sources */,
+				CEA8B03521B7FB1A003F4CFF /* RoundedButton.swift in Sources */,
+				CEBA403B2265FD2500A10174 /* EmployeeNumberViewController.swift in Sources */,
+				CE21A1CC235EC83C008181FC /* Channel.swift in Sources */,
+				CE07887421F99BB100559C5D /* SelectEmployeeResetDaysViewController.swift in Sources */,
+				CEBA403722659C3100A10174 /* NumberOfRelieversViewController.swift in Sources */,
+				CE962E1F21C26462006883E5 /* PastLeaveRequests.swift in Sources */,
+				CEAFC5A121E4CA3A003A85DC /* UserDataAllClasses.swift in Sources */,
+				CE21A1C8235EC4EE008181FC /* UIView+Additions.swift in Sources */,
+				CEAAF33B21B8930300240C5A /* DrawerViewController.swift in Sources */,
+				CE809BF2234BB7D800EF5A38 /* FirebaseEnums.swift in Sources */,
+				CE78D8322375D1D600E94574 /* CahttingViewController.swift in Sources */,
+				CEAAF33D21B893F400240C5A /* PastLeaveRequestsViewController.swift in Sources */,
+				CE07887221F99B8F00559C5D /* ResetEmployeeDaysViewController.swift in Sources */,
+				CE71F80F21FC62800014A998 /* PastLeavesTableViewCell.swift in Sources */,
+				CEAFC5D621EB9BCC003A85DC /* SelectEmployeeViewController.swift in Sources */,
+				CE6C105C21BB920F00637BB0 /* MyAccountViewController.swift in Sources */,
+				CEFA744D220BF884004780AE /* RedRoundedTextField.swift in Sources */,
 				CEA8B02321B7CEAE003F4CFF /* AppDelegate.swift in Sources */,
+				CE21A1C6235EC46A008181FC /* UICollectionView+Additions.swift in Sources */,
+				CE21A1C1235EC2CE008181FC /* ChatViewController.swift in Sources */,
+				CE21A1B9235E9FE0008181FC /* UsersViewController.swift in Sources */,
+				CE962E1721C2094F006883E5 /* GoBackButton.swift in Sources */,
+				CE343AD121BE509C003E0722 /* AppUtility.swift in Sources */,
+				CE809BF6234BB91E00EF5A38 /* UIImageExtension.swift in Sources */,
+				CE343AD921BF9382003E0722 /* PendingLeaveRequestsViewController.swift in Sources */,
+				CEBA40332264B78C00A10174 /* ResetPasswordViewController.swift in Sources */,
+				CE077DA32369104C0072EFD5 /* SignInViewController.swift in Sources */,
+				CE07886A21F99B0700559C5D /* SelectEmployeeForcedLeaveViewController.swift in Sources */,
+				CE962E1121C0DDB4006883E5 /* RespondToLeaveViewController.swift in Sources */,
+				CEBA403522659A3400A10174 /* CustomSelectedTableViewCell.swift in Sources */,
+				CE9549A822088C0F00DE5428 /* VisitorsDetailViewController.swift in Sources */,
+				CEA744C321B92A7C00C02FE7 /* EmailViewController.swift in Sources */,
+				CE962E1321C12464006883E5 /* CommentTextField.swift in Sources */,
+				CEC12F212361805600035192 /* UsersChatTableViewCell.swift in Sources */,
+				CE21A1BB235EA07E008181FC /* DatabaseRepresentation.swift in Sources */,
+				CEAFC59D21E4B8D1003A85DC /* Constants.swift in Sources */,
+				CEBA403F226734EC00A10174 /* RejectedLeavesCellTableViewCell.swift in Sources */,
+				CEAFC5A521E67664003A85DC /* LeaveRequest.swift in Sources */,
+				CE962E1D21C22ECF006883E5 /* RejectedLeaveRequestTableViewCell.swift in Sources */,
+				CE07887021F99B7400559C5D /* ActiveForcedLeaveDetailViewController.swift in Sources */,
+				CEAAF33921B8618100240C5A /* RoundedTextField.swift in Sources */,
+				CEAFC59F21E4C4A1003A85DC /* APIRouter.swift in Sources */,
+				CE07888021FA8EEA00559C5D /* PendingRelieverRequestTableViewCell.swift in Sources */,
+				CE07886C21F99B3700559C5D /* CreateForcedLeaveViewController.swift in Sources */,
+				CEAFC5A321E4E841003A85DC /* APIClient.swift in Sources */,
+				CEAFC5AD21E68F57003A85DC /* DataModel.xcdatamodeld in Sources */,
+				CE343AD321BE5677003E0722 /* AddToCalendarViewController.swift in Sources */,
+				CE07888221FA921700559C5D /* RespondToReliverReqViewController.swift in Sources */,
+				CE21A1BF235EA3A4008181FC /* AppSettings.swift in Sources */,
+				CE6C105A21BB91C700637BB0 /* ApplyForLeaveViewController.swift in Sources */,
+				CE07887E21FA8B7800559C5D /* PendingRelieverRequestsViewController.swift in Sources */,
+				CE962E1B21C22EB6006883E5 /* AcceptedLeaveRequestTableViewCell.swift in Sources */,
+				CE913D9821C005E400650BCF /* PendingLeaveRequest.swift in Sources */,
+				CE6C105E21BB922F00637BB0 /* PreferencesViewController.swift in Sources */,
+				CEBA40392265B78300A10174 /* MultipleRelieversViewController.swift in Sources */,
+				CE343AD721BF9025003E0722 /* PendingLeaveRequestsTableViewCell.swift in Sources */,
+				CE07887A21FA184F00559C5D /* AllForcedLeavesViewController.swift in Sources */,
+				CEBA403D2267332600A10174 /* RejectedLeavesViewController.swift in Sources */,
+				CE71F80D21FC5D510014A998 /* PastLeavesViewController.swift in Sources */,
+				CE07887621F9E46E00559C5D /* SuccessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +710,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,17 +777,22 @@
 		};
 		CEA8B03221B7CEB3003F4CFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A925209417C402248F0E56 /* Pods-Leave Management.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Leave Management/Leave Management.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R8TXBLB73Y;
+				DEVELOPMENT_TEAM = 46YJJ5Q38G;
 				INFOPLIST_FILE = "Leave Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Andromeda.Leave-Management";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellixartechnologies.LeaveManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +800,22 @@
 		};
 		CEA8B03321B7CEB3003F4CFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F3BF1B0580BAC5B444E4D4 /* Pods-Leave Management.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Leave Management/Leave Management.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R8TXBLB73Y;
+				DEVELOPMENT_TEAM = 46YJJ5Q38G;
 				INFOPLIST_FILE = "Leave Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Andromeda.Leave-Management";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellixartechnologies.LeaveManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +843,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEAFC5AB21E68F57003A85DC /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEAFC5AC21E68F57003A85DC /* DataModel.xcdatamodel */,
+			);
+			currentVersion = CEAFC5AC21E68F57003A85DC /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEA8B01721B7CEAE003F4CFF /* Project object */;
 }

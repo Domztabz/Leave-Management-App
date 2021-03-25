@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "000847EF-3DC7-4644-9196-C4921488488A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2338C593-23D2-4B7F-A188-D5B950BA5C76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/View Controllers/EmailViewController.swift"
+            timestampString = "623882279.073323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "EmailViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56B5FEA3-B352-44D5-9C3E-BFDAC82233B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/View Controllers/ActiveForcedLeaveViewController.swift"
+            timestampString = "594480653.516129"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "ActiveForcedLeaveViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "56B5FEA3-B352-44D5-9C3E-BFDAC82233B7 - df3ba3ed7ff5b1b7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.ActiveForcedLeaveViewController.tableView.getter : weak Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/View%20Controllers/ActiveForcedLeaveViewController.swift"
+                  timestampString = "570074959.910708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "56B5FEA3-B352-44D5-9C3E-BFDAC82233B7 - 79f2fe689663ada3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.ActiveForcedLeaveViewController.tableView.setter : weak Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/View%20Controllers/ActiveForcedLeaveViewController.swift"
+                  timestampString = "570074959.913312"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "56B5FEA3-B352-44D5-9C3E-BFDAC82233B7 - 9f67caa130cd2573"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.ActiveForcedLeaveViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Leave_Management.ActiveForcedLeaveViewController"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/View%20Controllers/ActiveForcedLeaveViewController.swift"
+                  timestampString = "570074959.916453"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "790">
+               </Location>
+               <Location
+                  uuid = "56B5FEA3-B352-44D5-9C3E-BFDAC82233B7 - f82f9bf5c1af037c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.ActiveForcedLeaveViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Leave_Management.ActiveForcedLeaveViewController&gt;"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/View%20Controllers/ActiveForcedLeaveViewController.swift"
+                  timestampString = "570074959.91935"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "757">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9981FCB6-2DBD-40CD-BD27-F216B3900C48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/Model/LeaveRequest.swift"
+            timestampString = "595324635.657907"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6168CDF-9F40-405F-B8BB-520E2772CA17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/View Controllers/PastLeavesViewController.swift"
+            timestampString = "595324635.658216"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6168CDF-9F40-405F-B8BB-520E2772CA17 - 488e365b2cae64a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.PastLeavesViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/View%20Controllers/PastLeavesViewController.swift"
+                  timestampString = "594634366.569245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "3980">
+               </Location>
+               <Location
+                  uuid = "D6168CDF-9F40-405F-B8BB-520E2772CA17 - 488e365b2cae64a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.PastLeavesViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/View%20Controllers/PastLeavesViewController.swift"
+                  timestampString = "594634366.571888"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "4321">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42007DEC-D6AD-4139-A9D6-199D1E2159AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/Model/LeaveRequest.swift"
+            timestampString = "595324635.65832"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "42007DEC-D6AD-4139-A9D6-199D1E2159AB - f80df405dbd50b8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.RespondToLeave.init(message: Swift.Optional&lt;Swift.String&gt;, leave: Swift.Optional&lt;Leave_Management.Leave&gt;, error: Swift.Optional&lt;Swift.Bool&gt;) -&gt; Leave_Management.RespondToLeave"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/Model/LeaveRequest.swift"
+                  timestampString = "595158510.013956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "583">
+               </Location>
+               <Location
+                  uuid = "42007DEC-D6AD-4139-A9D6-199D1E2159AB - c142dfe437b90e4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.RespondToLeave.init() -&gt; Leave_Management.RespondToLeave"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/Model/LeaveRequest.swift"
+                  timestampString = "595158510.017005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC4DA4C1-E046-4EBB-BDF9-FE22009B04B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/CustomViews/UsersChatTableViewCell.swift"
+            timestampString = "595252619.912756"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "CC4DA4C1-E046-4EBB-BDF9-FE22009B04B0 - f6a5252bffe10b41"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.UsersChatTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Leave_Management.UsersChatTableViewCell"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/CustomViews/UsersChatTableViewCell.swift"
+                  timestampString = "594988898.613287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "CC4DA4C1-E046-4EBB-BDF9-FE22009B04B0 - 81a09208c6e95ec7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.UsersChatTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Leave_Management.UsersChatTableViewCell"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/CustomViews/UsersChatTableViewCell.swift"
+                  timestampString = "594988898.616281"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "CC4DA4C1-E046-4EBB-BDF9-FE22009B04B0 - afb346c1436b2c1a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.UsersChatTableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Leave_Management.UsersChatTableViewCell&gt;"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/CustomViews/UsersChatTableViewCell.swift"
+                  timestampString = "594988898.619176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "CC4DA4C1-E046-4EBB-BDF9-FE22009B04B0 - 7d4cdec2163a52e7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.UsersChatTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Leave_Management.UsersChatTableViewCell&gt;"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/CustomViews/UsersChatTableViewCell.swift"
+                  timestampString = "594988898.622404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "CC4DA4C1-E046-4EBB-BDF9-FE22009B04B0 - d0ae44378b943d67"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Leave_Management.UsersChatTableViewCell.__deallocating_deinit"
+                  moduleName = "Leave Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Developer/Leave%20Management/Leave%20Management/CustomViews/UsersChatTableViewCell.swift"
+                  timestampString = "594988898.626282"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACE567B1-98A9-4569-82E1-37E1CB002306"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leave Management/Chat/SignInViewController.swift"
+            timestampString = "595159871.574513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "addTokenToDB(token:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
